@@ -7,17 +7,13 @@ public class BouncingBall : MonoBehaviour
     public float offset, speed;
 
     public AnimationCurve height, movement;
-    public AnimationCurve cubeScale;
+    
     public Transform cubeA, cubeB;
     //public Vector3 cubeScaleA, cubeScaleB;
     private float rate;
 
     private Vector3 desiredPosition;
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -30,7 +26,7 @@ public class BouncingBall : MonoBehaviour
         desiredPosition.y += height.Evaluate(rate) + offset;
 
         transform.position = desiredPosition;
-        cubeA.localScale = new Vector3(1f, cubeScale.Evaluate(rate), 1f);
+       
         if (rate >= 1)
         {
             rate = 0;
