@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 0
-  speed: 0.8
+  speed: 1
   height:
     serializedVersion: 2
     m_Curve:
@@ -687,14 +687,14 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.25
       value: 2.5
-      inSlope: 0
-      outSlope: 0
+      inSlope: 0.03566408
+      outSlope: 0.03566408
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.5
+      time: 0.501796
       value: 0
       inSlope: -16.800097
       outSlope: 14.9755945
@@ -705,8 +705,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.75
       value: 2.5
-      inSlope: 0.0048828125
-      outSlope: 0.0048828125
+      inSlope: 0.041062832
+      outSlope: 0.041062832
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -756,66 +756,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  cubeScale:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.05508992
-      value: 0.69755197
-      inSlope: 1.3667463
-      outSlope: 1.3667463
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.096295014
-      value: 1
-      inSlope: -0.04869242
-      outSlope: -0.04869242
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.12063367
-      value: 0.6879811
-      inSlope: -0.03776007
-      outSlope: -0.03776007
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.17736757
-      value: 1
-      inSlope: -0.4230198
-      outSlope: -0.4230198
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   cubeA: {fileID: 135627931}
   cubeB: {fileID: 1799970598}
 --- !u!1 &2084351073
@@ -845,7 +785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084351073}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: -2.0502028, z: -0.34}
+  m_LocalPosition: {x: 0, y: -2, z: -0.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
