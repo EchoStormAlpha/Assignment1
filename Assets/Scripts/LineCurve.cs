@@ -28,16 +28,21 @@ public class LineCurve : MonoBehaviour
 
         private AnimationCurve lineCurvature;
 
-        private Vector3 desiredPosition;
+      
+
+    public List<Vector3> listOfPositions;//stores position of the previous frames line
+
+    private void Start()
 
 
-
-        private void Start()
-
+    {
+        listOfPositions = new List<Vector3>();
+        lRenderer = GetComponent<LineRenderer>();
+        lRenderer.SetPosition(0, targetA.position);
+        for(int x = 0; x < lRenderer.positionCount; x++)
         {
-
-            lRenderer = GetComponent<LineRenderer>();
-
+            listOfPositions.Add(lRenderer.GetPosition(x));
+        }
         }
 
         void Update()
@@ -48,21 +53,21 @@ public class LineCurve : MonoBehaviour
 
                 lRenderer.positionCount = lineResolution;
 
+            for (int x = 0; x < listOfPositions.Count; x++)//store the old positions
+        {
+            listOfPositions[x] = lRenderer.GetPosition(x);
+        }
+        lRenderer.SetPosition(0, targetA.position);//set first point to the target attached to the ball
+
+        for (int x = 1; x < lRenderer.positionCount; x++)
+
+        {
+            //store position of current index
+            // desiredPosition = Vector3.Lerp(lRenderer.GetPosition(x), lRenderer.GetPosition(x+1), x / (lRenderer.positionCount - 1.0f));
 
 
-            for (int x = 0; x < lRenderer.positionCount; x++)
 
-            {
-
-                desiredPosition = Vector3.Lerp(targetA.position, targetB.position, x / (lRenderer.positionCount - 1.0f));
-
-
-
-                lRenderer.SetPosition(x, new Vector3(desiredPosition.x,
-
-                                            desiredPosition.y + lineCurvature.Evaluate(x / (lRenderer.positionCount - 1.0f)),
-
-                                            desiredPosition.z));
+            lRenderer.SetPosition(x, (listOfPositions[x-1]));//set position of current index to position of the index before from previous frame.
 
             }
 
