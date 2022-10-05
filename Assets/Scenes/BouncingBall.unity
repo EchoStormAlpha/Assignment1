@@ -205,20 +205,6 @@ LineRenderer:
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -307,7 +293,7 @@ MonoBehaviour:
   lRenderer: {fileID: 124307008}
   targetA: {fileID: 769915661}
   targetB: {fileID: 0}
-  lineResolution: 36
+  lineResolution: 22
   lineCurvature:
     serializedVersion: 2
     m_Curve:
@@ -342,20 +328,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   listOfPositions:
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
-  - {x: -0.41685036, y: -0.77, z: 1.5914029}
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
   - {x: -0.41685036, y: -0.77, z: 1.5914029}
@@ -507,20 +479,6 @@ LineRenderer:
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -609,7 +567,7 @@ MonoBehaviour:
   lRenderer: {fileID: 270603938}
   targetA: {fileID: 1472258337}
   targetB: {fileID: 0}
-  lineResolution: 36
+  lineResolution: 22
   lineCurvature:
     serializedVersion: 2
     m_Curve:
@@ -644,20 +602,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   listOfPositions:
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
-  - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
   - {x: -0.71085036, y: -0.22500001, z: 1.5914029}
@@ -1038,20 +982,6 @@ LineRenderer:
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -1140,7 +1070,7 @@ MonoBehaviour:
   lRenderer: {fileID: 978379265}
   targetA: {fileID: 284029530}
   targetB: {fileID: 0}
-  lineResolution: 36
+  lineResolution: 22
   lineCurvature:
     serializedVersion: 2
     m_Curve:
@@ -1175,20 +1105,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   listOfPositions:
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
-  - {x: 0.019149661, y: -0.377, z: 1.5914029}
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
   - {x: 0.019149661, y: -0.377, z: 1.5914029}
@@ -1336,6 +1252,8 @@ GameObject:
   - component: {fileID: 1453723109}
   - component: {fileID: 1453723108}
   - component: {fileID: 1453723107}
+  - component: {fileID: 1453723110}
+  - component: {fileID: 1453723111}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1391,7 +1309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8bc6d3daa069bd4085738b530bcd146, type: 2}
+  - {fileID: 2100000, guid: 9ae004569d6e3354384f3c92649524b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1421,6 +1339,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453723105}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1453723110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453723105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f054336cc285f9f4fb0ca5e0375d5d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jiggledObject: {fileID: 1453723106}
+  height:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 7.597584
+      outSlope: 7.597584
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.027659655
+      value: 1.2101465
+      inSlope: 7.597584
+      outSlope: -3.855955
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.08215888
+      value: 1
+      inSlope: -3.855955
+      outSlope: 5.2921515
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.12376252
+      value: 1.2201728
+      inSlope: 5.2921515
+      outSlope: -9.660716
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.14655304
+      value: 1
+      inSlope: -9.660716
+      outSlope: -9.660716
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jitter: 0
+  rate: 1.1
+  speed: 0.26
+  desiredPosition: {x: 0, y: 0, z: 0}
+--- !u!54 &1453723111
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453723105}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1472258336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1716,8 @@ GameObject:
   - component: {fileID: 2084351077}
   - component: {fileID: 2084351076}
   - component: {fileID: 2084351075}
+  - component: {fileID: 2084351078}
+  - component: {fileID: 2084351079}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1729,7 +1733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084351073}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.37, z: -0.34}
+  m_LocalPosition: {x: 0, y: -0.67, z: -0.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1769,7 +1773,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8bc6d3daa069bd4085738b530bcd146, type: 2}
+  - {fileID: 2100000, guid: 9ae004569d6e3354384f3c92649524b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1799,3 +1803,87 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084351073}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2084351078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084351073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f054336cc285f9f4fb0ca5e0375d5d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jiggledObject: {fileID: 2084351074}
+  height:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 7.597584
+      outSlope: 7.597584
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.027659655
+      value: 1.2101465
+      inSlope: 7.597584
+      outSlope: -3.855955
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.08215888
+      value: 1
+      inSlope: -3.855955
+      outSlope: 5.2921515
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.12376252
+      value: 1.2201728
+      inSlope: 5.2921515
+      outSlope: -9.660716
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.14655304
+      value: 1
+      inSlope: -9.660716
+      outSlope: -9.660716
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jitter: 0
+  rate: 1.1
+  speed: 0
+  desiredPosition: {x: 0, y: 0, z: 0}
+--- !u!54 &2084351079
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084351073}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
