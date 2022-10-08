@@ -17,7 +17,7 @@ public class BouncingBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rate += Time.deltaTime * speed;
+        rate += Time.deltaTime * speed;//keeps movement consistent across varying frame rate
 
 
 

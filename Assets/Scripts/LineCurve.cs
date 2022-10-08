@@ -5,18 +5,13 @@ using UnityEngine;
 public class LineCurve : MonoBehaviour
 {
     
-
-   
-
-    
-
         [SerializeField]
 
         private LineRenderer lRenderer;
 
-        [SerializeField]
+    [SerializeField]
 
-        private Transform targetA, targetB;
+    private Transform targetA;//this is our target
 
         [Range(2, 100)]
 
@@ -36,9 +31,9 @@ public class LineCurve : MonoBehaviour
 
 
     {
-        listOfPositions = new List<Vector3>();
+        listOfPositions = new List<Vector3>();//this list is used to make a copy of the line renderer index
         lRenderer = GetComponent<LineRenderer>();
-        lRenderer.SetPosition(0, targetA.position);
+        lRenderer.SetPosition(0, targetA.position);//this starts the line render in the correct position
         for(int x = 0; x < lRenderer.positionCount; x++)
         {
             listOfPositions.Add(lRenderer.GetPosition(x));
@@ -53,20 +48,17 @@ public class LineCurve : MonoBehaviour
 
                 lRenderer.positionCount = lineResolution;
 
-            for (int x = 0; x < listOfPositions.Count; x++)//store the old positions
+            for (int x = 0; x < listOfPositions.Count; x++)//store the positions of all points on the line renderer
+                                                           //we use this to store where they were the frame before while we are updating the line renderer
         {
             listOfPositions[x] = lRenderer.GetPosition(x);
         }
-        lRenderer.SetPosition(0, targetA.position);//set first point to the target attached to the ball
+        lRenderer.SetPosition(0, targetA.position);//The first point is always update to where its empty game object "target" is on the ball
 
-        for (int x = 1; x < lRenderer.positionCount; x++)
+        for (int x = 1; x < lRenderer.positionCount; x++)//we start at 1 because index 0 was set above
 
         {
-            //store position of current index
-            // desiredPosition = Vector3.Lerp(lRenderer.GetPosition(x), lRenderer.GetPosition(x+1), x / (lRenderer.positionCount - 1.0f));
-
-
-
+            
             lRenderer.SetPosition(x, (listOfPositions[x-1]));//set position of current index to position of the index before from previous frame.
 
             }
